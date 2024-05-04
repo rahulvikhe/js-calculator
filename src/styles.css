@@ -1,84 +1,85 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .calculator {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .display {
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  #result {
-    width: 100%;
-    font-size: 24px;
-    text-align: right;
-    border: none;
-    outline: none;
-  }
-  
-  .buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-  }
-  
-  .btn {
-    background-color: #ddd;
-    color: #333;
-    border: none;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #ccc;
-  }
-  
-  .operator {
-    background-color: #f7a621;
-    color: #fff;
-  }
-  
-  .operator:hover {
-    background-color: #e69a1a;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #E5E5E5; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-  .history {
-    background-color: #444;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
-    max-height: 200px;
-    overflow-y: auto;
-  }
-  
-  .history h3 {
-    margin-top: 0;
-  }
-  
-  .history ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .history li {
-    margin-bottom: 5px;
-  }
+.calculator {
+  background-color: #14213D; /* Dark blue background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.display {
+  background-color: #FFFFFF; /* White background for display */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#result {
+  width: 100%;
+  font-size: 24px;
+  text-align: right;
+  border: none;
+  outline: none;
+  color: #000000; /* Black text color */
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.btn {
+  background-color: #E5E5E5; /* Light gray button background */
+  color: #000000; /* Black text color */
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FFFFFF; /* White background on hover */
+}
+
+.operator {
+  background-color: #FCA311; /* Orange background for operators */
+  color: #FFFFFF; /* White text color for operators */
+}
+
+.operator:hover {
+  background-color: #E59A00; /* Darker orange background on hover */
+}
+
+.history {
+  background-color: #14213D; /* Dark blue background for history */
+  color: #FFFFFF; /* White text color for history */
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.history h3 {
+  margin-top: 0;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history li {
+  margin-bottom: 5px;
+}
